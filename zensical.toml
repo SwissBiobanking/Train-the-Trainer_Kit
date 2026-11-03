@@ -1,65 +1,88 @@
 [project]
-site_name = "My site"
-repo_name = "sib-swiss/course_website_template"
-repo_url = "https://github.com/sib-swiss/course_website_template"
-extra_css = ["stylesheets/extra.css"]
-copyright = """
-    Copyright &copy; 2021-2025 SIB Swiss Institute of Bioinformatics -
-    <a href="#__consent">Change cookie settings</a>
-"""
-extra_javascript = ["javascripts/consent.js"]
+site_url = "https://swissbiobanking.github.io/Train-the-Trainer_Kit/"
+site_name = "Train-the-Trainer Kit for Biobank Assessment"
+copyright = "© Swiss Biobanking Platform (SBP)"
+site_description = "Training kit for new SBP evaluators: how to assess biobanks for the SBP NORMA and SBP OPTIMA Labels"
+site_author = "Valeria Di Cola"
 
-[project.extra.version]
-provider = "mike"
-
-[project.extra.consent]
-title = "Cookie consent"
-description = """
-    We use cookies to recognize your repeated visits and preferences, as well
-    as to measure the effectiveness of our training material and whether users
-    find what they're searching for. With your consent, you're helping us to
-    make our training material better.
-"""
-
-[project.extra.consent.cookies]
-matomo = "Matomo Analytics"
+repo_url = "https://github.com/SwissBiobanking/Train-the-Trainer_Kit"
+repo_name = "SwissBiobanking/Train-the-Trainer_Kit"
 
 nav = [
-    {"Home" = "index.md"},
-    {"Precourse preparations" = "precourse.md"},
-    {"Course schedule" = "course_schedule.md"},
-    {"Exercises" = "exercises.md"}
+  { "Overview" = "index.md" },
+  { "Learning objectives" = "objectives.md" },
+  { "Training curriculum" = [
+    { "Module 1 — Understanding the SBP Labels" = "modules/module-1.md" },
+    { "Module 2 — SQAN training" = "modules/module-2.md" },
+    { "Module 3 — Compliance review techniques & tools" = "modules/module-3.md" },
+    { "Module 4 — Practical case studies" = "modules/module-4.md" },
+    { "Module 5 — Professional conduct & review rules" = "modules/module-5.md" },
+  ] },
+  { "Starter kit" = "starter-kit.md" },
+  { "Step-by-step guideline" = "guideline.md" },
 ]
 
-[project.theme]
-logo = "assets/images/SIB_logo.svg"
-favicon = "assets/images/SIB_logo.svg"
-font.text = "Inter"
+extra_css = ["stylesheets/extra.css"]
 
-# Palette toggle for light mode
+[project.theme]
+language = "en"
+features = [
+  "announce.dismiss",
+  "content.code.copy",
+  "content.footnote.tooltips",
+  "content.tooltips",
+  "content.tabs.link",
+  "navigation.footer",
+  "navigation.indexes",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+# To use your own logo: put it in docs/assets/images/logo.png and uncomment
+# logo = "assets/images/logo.png"
+
+[project.theme.icon]
+logo = "lucide/graduation-cap"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
 [[project.theme.palette]]
 media = "(prefers-color-scheme: light)"
 scheme = "default"
 toggle.icon = "lucide/sun"
 toggle.name = "Switch to dark mode"
 
-# Palette toggle for dark mode
 [[project.theme.palette]]
 media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
-toggle.name = "Switch to light mode"
+toggle.name = "Switch to system preference"
 
-[project.markdown_extensions.abbr]
-[project.markdown_extensions.def_list]
-[project.markdown_extensions.footnotes]
-[project.markdown_extensions.tables]
-[project.markdown_extensions.admonition]
-[project.markdown_extensions.toc]
-[project.markdown_extensions.pymdownx.superfences]
-[project.markdown_extensions.attr_list]
-[project.markdown_extensions.pymdownx.tabbed]
-[project.markdown_extensions.pymdownx.details]
-[project.markdown_extensions.pymdownx.emoji]
-emoji_index = "zensical.extensions.emoji.twemoji"
-emoji_generator = "zensical.extensions.emoji.to_svg"
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.betterem = {}
+pymdownx.caret = {}
+pymdownx.details = {}
+pymdownx.highlight.anchor_linenums = true
+pymdownx.inlinehilite = {}
+pymdownx.magiclink = {}
+pymdownx.mark = {}
+pymdownx.smartsymbols = {}
+pymdownx.superfences = {}
+pymdownx.tabbed.alternate_style = true
+pymdownx.tasklist.custom_checkbox = true
+pymdownx.tilde = {}
