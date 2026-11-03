@@ -4,6 +4,11 @@ icon: lucide/rocket
 
 # Train-the-Trainer Kit for Biobank Assessment
 
+<div class="logo-row">
+  <a href="https://swissbiobanking.ch/" target="_blank"><img src="assets/images/logo-sbp.png" alt="Swiss Biobanking Platform"></a>
+  <img class="logo-cs-biq" src="assets/images/logo-cs-biq.png" alt="CS-BIQ">
+</div>
+
 A **training programme** for new evaluators on how to assess biobanks for the **SBP NORMA Label** and the **SBP OPTIMA Label** of the Swiss Biobanking Platform (SBP).
 
 Learn more about the labels at [swissbiobanking.ch/labels](https://swissbiobanking.ch/labels/).

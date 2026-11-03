@@ -1,26 +1,63 @@
-/* Brand colours — change these three values to rebrand the whole site */
+/* Swiss Biobanking brand colours */
 :root {
-  --ttt-primary: #1f4e5f;   /* headings, header bar */
-  --ttt-secondary: #a8553a; /* section headings */
-  --ttt-accent: #6a9a8b;    /* links on hover, buttons */
-  --md-primary-fg-color: var(--ttt-primary);
-  --md-accent-fg-color: var(--ttt-accent);
+  --sbp-navy: #000064;
+  --sbp-blue: #0000c8;
+  --sbp-bright: #0000ff;
+  --md-primary-fg-color: var(--sbp-navy);
+  --md-accent-fg-color: var(--sbp-bright);
+  --md-typeset-a-color: var(--sbp-blue);
 }
 
-.md-typeset h1 { color: var(--ttt-primary); }
-.md-typeset h2 { color: var(--ttt-secondary); }
+.md-typeset h1 { color: var(--sbp-navy); }
+.md-typeset h2 { color: var(--sbp-blue); }
 .md-typeset h3,
-.md-typeset h4 { color: var(--ttt-primary); }
+.md-typeset h4 { color: var(--sbp-navy); }
 
+[data-md-color-scheme="slate"] {
+  --md-typeset-a-color: #9a9aff;
+}
 [data-md-color-scheme="slate"] .md-typeset h1,
 [data-md-color-scheme="slate"] .md-typeset h3,
-[data-md-color-scheme="slate"] .md-typeset h4 { color: #8fc1d0; }
-[data-md-color-scheme="slate"] .md-typeset h2 { color: #e09a7f; }
+[data-md-color-scheme="slate"] .md-typeset h4 { color: #c4c4ff; }
+[data-md-color-scheme="slate"] .md-typeset h2 { color: #9a9aff; }
 
-/* Bigger header logo */
+/* White header so both logos keep their own colours */
+.md-header {
+  background-color: #ffffff;
+  color: var(--sbp-navy);
+  box-shadow: 0 1px 0 rgba(0, 0, 100, 0.12);
+}
+.md-header__button,
+.md-header__title,
+.md-source { color: var(--sbp-navy); }
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
-  height: 40px;
+  height: 2.4rem;
   width: auto;
 }
-.md-header { min-height: 4.8rem; }
+.md-search__form { background-color: rgba(0, 0, 100, 0.06); }
+.md-search__form:hover { background-color: rgba(0, 0, 100, 0.1); }
+.md-search__input,
+.md-search__input::placeholder,
+.md-search__icon { color: var(--sbp-navy); }
+
+/* Logos on the overview page */
+.logo-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 1rem 0 2rem;
+}
+.logo-row img { height: 72px; width: auto; }
+.logo-row img.logo-cs-biq { height: 56px; }
+[data-md-color-scheme="slate"] .logo-row {
+  background: #ffffff;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+}
+
+/* On small screens the header shows only the logo */
+@media screen and (max-width: 44.9375em) {
+  .md-header__button.md-logo img { height: 36px; }
+}
