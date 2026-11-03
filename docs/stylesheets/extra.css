@@ -46,11 +46,11 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 2.5rem;
+  gap: 2rem;
   margin: 1rem 0 2rem;
 }
-.logo-row img { height: 72px; width: auto; }
-.logo-row img.logo-cs-biq { height: 56px; }
+.logo-row img { height: 48px; width: auto; }
+.logo-row img.logo-cs-biq { height: 38px; }
 [data-md-color-scheme="slate"] .logo-row {
   background: #ffffff;
   padding: 1rem 1.5rem;
