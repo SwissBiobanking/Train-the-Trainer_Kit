@@ -1,4 +1,6 @@
-# Train-the-Trainer Kit for Biobank Assessment
+# Biobank Assessment Training Kit
+
+*for SBP NORMA and SBP OPTIMA Label evaluators*
 
 Website: https://swissbiobanking.github.io/Train-the-Trainer_Kit/
 
