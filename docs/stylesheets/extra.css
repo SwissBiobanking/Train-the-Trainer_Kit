@@ -71,3 +71,12 @@
 }
 [data-md-color-scheme="slate"] .md-typeset .subtitle { color: #9a9aff; }
 .logo-row img.logo-swiss-czech { height: 44px; }
+
+/* Subtitle under the overview page title */
+.md-typeset .subtitle {
+  margin-top: -0.8rem;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--sbp-blue);
+}
+[data-md-color-scheme="slate"] .md-typeset .subtitle { color: #9a9aff; }
