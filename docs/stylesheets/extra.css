@@ -71,3 +71,9 @@
 }
 [data-md-color-scheme="slate"] .md-typeset .subtitle { color: #9a9aff; }
 .logo-row img.logo-swiss-czech { height: 44px; }
+
+/* Process overview image in Module 1 */
+.md-typeset img.process-figure {
+  border: 1px solid rgba(0, 0, 100, 0.12);
+  border-radius: 0.4rem;
+}

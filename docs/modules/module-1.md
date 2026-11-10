@@ -13,3 +13,8 @@
 ## Material
 
 - [Overview of the label process — SBP NORMA & SBP OPTIMA (PDF)](https://swissbiobanking-my.sharepoint.com/:b:/g/personal/valeria_dicola_swissbiobanking_ch/IQAfOQzynlS_TYGCYHH9qYx-AWR6fVSx8zO7NRT0rc9HYRg?e=xEvXGN){ target="_blank" }
+
+<figure markdown>
+[![Overview of the SBP label process: from registration in the Biobank SQAN to the SBP NORMA and SBP OPTIMA Labels](../assets/images/label-process-overview.png){ .process-figure }](../assets/images/label-process-overview.png){ target="_blank" }
+<figcaption>The SBP label process, step by step. Click the image to open it full size.</figcaption>
+</figure>
