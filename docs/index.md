@@ -82,3 +82,10 @@ Keep the **Starter kit** and the **Step-by-step guideline** at hand: you will us
 
 !!! info "Access to documents"
     Some documents in this kit are stored on the SBP SharePoint. You may need to sign in with your SBP account to open them.
+
+---
+
+!!! quote "Disclaimer"
+    The **CS-BIQ** project (*Czech-Swiss Biobank Infrastructure Initiative for Fair Data and Quality*), registration no. **8K0204**, is supported by Switzerland through the **Swiss-Czech Cooperation Programme**. Project duration: 1 January 2026 – 31 December 2028.
+
+    This training kit reflects only the authors' views. The funders are not responsible for any use that may be made of the information it contains.

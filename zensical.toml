@@ -1,7 +1,7 @@
 [project]
 site_url = "https://swissbiobanking.github.io/Train-the-Trainer_Kit/"
 site_name = "Biobank Assessment Training Kit"
-copyright = "© Swiss Biobanking Platform (SBP)"
+copyright = "© Swiss Biobanking Platform (SBP) · CS-BIQ project (8K0204), supported by Switzerland through the Swiss-Czech Cooperation Programme"
 site_description = "Training kit for new SBP evaluators: how to assess biobanks for the SBP NORMA and SBP OPTIMA Labels"
 site_author = "Valeria Di Cola"
 
