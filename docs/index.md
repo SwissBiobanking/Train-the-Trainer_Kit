@@ -16,6 +16,20 @@ A **training programme** for new evaluators on how to assess biobanks for the **
 
 Learn more about the labels at [swissbiobanking.ch/labels](https://swissbiobanking.ch/labels/).
 
+## About the project
+
+In this collaborative project, the Swiss and Czech National Nodes propose a structured competency transfer and labelling initiative. Its aim is to empower the Czech Node to autonomously implement and expand the SBP quality engagement model within its national biobanking infrastructure.
+
+The Swiss Node (represented by the SBP team) will guide the Czech Node (represented by MMCI) in the progressive implementation of the **VITA**, **NORMA** and **OPTIMA** quality labels, through a train-the-trainer approach and skills and knowledge transfer across the selected Czech pilot biobanks.
+
+Within the project, Czech biobanks will pursue two forms of quality recognition:
+
+**BBMRI-ERIC Quality Label**
+:   Awarded based on the evaluation of specific processes or biospecimen types within a biobank. It is based on completing the Self-Assessment Survey (SAS) and a follow-up audit by BBMRI-ERIC. This label confirms that the evaluated process meets European quality standards and is suitable for research use.
+
+**ISO 20387 accreditation**
+:   A formal recognition of the biobank as an organisation, granted by national accreditation bodies, confirming that it operates in accordance with the requirements of the international standard for biobanking. This accreditation reflects the implementation of a systematic quality management system across all biobank operations.
+
 ## What this kit includes
 
 <div class="grid cards" markdown>
