@@ -16,19 +16,24 @@ A **training programme** for new evaluators on how to assess biobanks for the **
 
 Learn more about the labels at [swissbiobanking.ch/labels](https://swissbiobanking.ch/labels/).
 
-## About the project
+## About the CS-BIQ project
 
-In this collaborative project, the Swiss and Czech National Nodes propose a structured competency transfer and labelling initiative. Its aim is to empower the Czech Node to autonomously implement and expand the SBP quality engagement model within its national biobanking infrastructure.
+**CS-BIQ — Czech-Swiss Biobank Infrastructure Initiative for FAIR Data and Quality Certification** connects the national nodes of BBMRI-ERIC in Czechia (**BBMRI.cz**) and Switzerland (**BBMRI.ch**, represented by the Swiss Biobanking Platform). It aims to strengthen the quality and interoperability of biobanking services in both countries, through biospecimen quality, FAIR data and a shared ethical and legal framework.
 
-The Swiss Node (represented by the SBP team) will guide the Czech Node (represented by MMCI) in the progressive implementation of the **VITA**, **NORMA** and **OPTIMA** quality labels, through a train-the-trainer approach and skills and knowledge transfer across the selected Czech pilot biobanks.
+In the area of quality, the Swiss evaluation system (the SBP **VITA**, **NORMA** and **OPTIMA** labels) is introduced in Czech pilot biobanks to help them obtain the **BBMRI-ERIC Quality Label** or **ISO 20387 accreditation**. The Swiss partner provides methodological guidance and training, while the Czech node gradually takes over the evaluations during the project. **This training kit is part of that transfer.**
 
-Within the project, Czech biobanks will pursue two forms of quality recognition:
+??? info "The two forms of quality recognition"
+    **BBMRI-ERIC Quality Label:** awarded for specific processes or biospecimen types within a biobank, based on the Self-Assessment Survey (SAS) and a follow-up audit by BBMRI-ERIC. It confirms that the evaluated process meets European quality standards and is suitable for research use.
 
-**BBMRI-ERIC Quality Label**
-:   Awarded based on the evaluation of specific processes or biospecimen types within a biobank. It is based on completing the Self-Assessment Survey (SAS) and a follow-up audit by BBMRI-ERIC. This label confirms that the evaluated process meets European quality standards and is suitable for research use.
+    **ISO 20387 accreditation:** formal recognition of the biobank as an organisation, granted by national accreditation bodies, confirming that it operates according to the international standard for biobanking and has a systematic quality management system across all its operations.
 
-**ISO 20387 accreditation**
-:   A formal recognition of the biobank as an organisation, granted by national accreditation bodies, confirming that it operates in accordance with the requirements of the international standard for biobanking. This accreditation reflects the implementation of a systematic quality management system across all biobank operations.
+| Key facts | |
+|---|---|
+| **Funding** | Czech-Swiss Research Infrastructure Initiative, call 8K2502 |
+| **Duration** | 36 months, March 2026 – February 2029 |
+| **Swiss partner** | Swiss Biobanking Platform (SBP) |
+| **Czech partner** | BBMRI.cz, represented by MMCI |
+| **Contacts (SBP)** | Sabine Bavamian, Raphaël Colsenet, Flavien Delhaes |
 
 ## What this kit includes
 
@@ -86,6 +91,6 @@ Keep the **Starter kit** and the **Step-by-step guideline** at hand: you will us
 ---
 
 !!! quote "Disclaimer"
-    The **CS-BIQ** project (*Czech-Swiss Biobank Infrastructure Initiative for Fair Data and Quality*), registration no. **8K0204**, is supported by Switzerland through the **Swiss-Czech Cooperation Programme**. Project duration: 1 January 2026 – 31 December 2028.
+    The **CS-BIQ** project (*Czech-Swiss Biobank Infrastructure Initiative for FAIR Data and Quality Certification*), registration no. **8K0204**, is supported by Switzerland through the **Swiss-Czech Cooperation Programme**. Project duration: March 2026 – February 2029.
 
     This training kit reflects only the authors' views. The funders are not responsible for any use that may be made of the information it contains.
