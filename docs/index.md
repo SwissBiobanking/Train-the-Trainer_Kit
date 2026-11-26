@@ -14,7 +14,39 @@ icon: lucide/rocket
 
 A **training programme** for new evaluators on how to assess biobanks for the **SBP NORMA Label** and the **SBP OPTIMA Label** of the Swiss Biobanking Platform (SBP).
 
-Learn more about the labels at [swissbiobanking.ch/labels](https://swissbiobanking.ch/labels/).
+## The SBP Labels
+
+The Swiss Biobanking Platform offers three labels, reflecting increasing levels of operational maturity:
+
+<div class="grid cards labels" markdown>
+
+-   **VITA**
+
+    ---
+
+    *Entry level*
+
+    Governance and legal/ethical compliance. Assessed remotely.
+
+-   **NORMA**
+
+    ---
+
+    *Intermediate*
+
+    Standardised operational processes. On-site visit.
+
+-   **OPTIMA**
+
+    ---
+
+    *Highest level*
+
+    Quality management system and continuous improvement. On-site visit.
+
+</div>
+
+This kit trains evaluators for **NORMA** and **OPTIMA**. See [Module 1](modules/module-1.md) for details, or [swissbiobanking.ch/labels](https://swissbiobanking.ch/labels/){ target="_blank" }.
 
 ## About the CS-BIQ project
 
