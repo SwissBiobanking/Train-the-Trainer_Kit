@@ -33,7 +33,6 @@ In the area of quality, the Swiss evaluation system (the SBP **VITA**, **NORMA**
 | **Duration** | 36 months, March 2026 – February 2029 |
 | **Swiss partner** | Swiss Biobanking Platform (SBP) |
 | **Czech partner** | BBMRI.cz, represented by MMCI |
-| **Contacts (SBP)** | Sabine Bavamian, Raphaël Colsenet, Flavien Delhaes |
 
 ## What this kit includes
 
