@@ -33,12 +33,10 @@ Any type of biobank can register and evaluate its organisation in the biobankSQA
 |---|---|---|
 | **Governance evaluation** (legal and ethical, VITA) | Yes, for human biobanks for research regulated by the Human Research Act (HRA) | No |
 | **Quality evaluation** (process, resource and quality assurance management) | Yes | Yes |
-| **Dashboard** (activity indicators) | Yes (under development) | No |
+| **Dashboard** (activity indicators) | Yes | No |
 
 !!! note "Biobanks not regulated by the HRA"
     The governance score (VITA Label) is designed for human biobanks for research regulated by the HRA, so it does not appear for other biobanks, e.g. diagnostic or animal biobanks. Their specific requirements are still explained in the *Quality indicators* tab.
-
-**Membership:** the full evaluation is available to SBP members. Without membership, a biobank only has access to the governance evaluation.
 
 ## Requirements and documentation
 
@@ -70,6 +68,9 @@ Any type of biobank can register and evaluate its organisation in the biobankSQA
     - NF S 96-900 standard for the management of biological resource centres, 2011
     - ISO 9001 standard for quality management systems, 2015
 
+    !!! note "SQAN and ISO 20387"
+        The SQAN criteria were defined before ISO 20387:2018 was published, so the standard is not one of their references. Many SQAN requirements are nevertheless consistent with ISO 20387, which is the main reference for the SBP NORMA and OPTIMA Labels (see [Module 1](module-1.md)).
+
 ## The biobankSQAN tool and questionnaire
 
 **Access:** users register, then log in, in the upper right corner of [www.biobanksqan.ch](https://www.biobanksqan.ch){ target="_blank" }. Use a current browser such as Chrome, Firefox or Safari.
@@ -94,7 +95,7 @@ Summary
 :   The characteristics of the biobank or infrastructure. **Public.**
 
 Dashboard
-:   Activity indicators (biobanks only, under development).
+:   Activity indicators (biobanks only).
 
 Quality indicators
 :   The biobank's score against SBP's quality criteria.
